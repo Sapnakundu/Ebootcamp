@@ -1,0 +1,66 @@
+*{
+    margin: 0px auto;
+}
+body{
+    background-color: lightgrey;
+}
+#main{
+    width: 95%;
+}
+#header{
+    height: 100px;
+    background-color: rgb(54, 49, 50);
+}
+#header h1{
+    color:white;
+    padding: 30px 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#menu{
+    background-color: rgb(172, 162, 162);
+}
+#menu ul{
+    padding: 0px;
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+#section{
+    height: 400px;
+    background-color: rgb(230, 228, 215);
+}
+#footer{
+    background-color: rgb(48, 19, 24);
+    color: white;
+    text-align: center;
+    padding: 1px 15px;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+.float-child {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}  
+  
+.float-child {
+    width: 80%;
+    float: right;
+    padding: 20px;
+    border: 2px solid black;
+}  
+#sap{
+    height: 200px;
+    width: 200px;
+}

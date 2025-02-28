@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e3e3e3;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+nav{
+    background-color: #089de3;
+    display: flex;
+    justify-content: space-between;
+}
+nav>a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px 10px 30px;
+   
+}
+ 
+.navbar>ul{
+    list-style: none;
+}
+.navbar>ul>li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 20px;
+}
+.navbar>ul>li>a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+}
+.navbar>ul>li:hover{
+    background-color: #111111;
+}
+.banner{
+    height: 400px;
+}
+.banner>img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.course-container{
+    background-color: #fff;
+}
+.course-container h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.courses{
+    display: flex;
+}
+.col{
+    width: 33.3%;
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    border-right: solid #bebebe 1px;
+}
+.col:last-child{
+    border-right: none;
+}
+.col h3{
+    padding: 10px 0px;
+    color: gray;
+}
+.col>p{
+    padding-bottom: 20px;
+}
+.col>a{
+    color:#fff;
+    background-color: #089de3;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+.about{
+    background-color: #089de3;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.about>h1{
+    font-size:30px;
+    padding-bottom: 20px;
+    color:#fff;
+}
+
+.about>img{
+    border:solid 2px;
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    object-fit: cover;
+    
+
+}
+
+.about>p{
+    font-size: 18px;
+    margin:10px 200px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    color:#fff;
+}
+.about>a{
+    color:#fff;
+    text-decoration: none;
+    border:solid white 1px;
+    padding: 5px 20px;
+    color:#fff;
+}
+
+
+
+
+
+.contactus{
+    height: 350px;
+    display: flex;
+   
+}
+ 
+.us1{
+    height: 100%;
+    width: 50%;
+    background-color: #9dc8db;
+    padding: 15px;
+   
+}
+.us2{
+    height: 100%;
+    width: 50%;
+    background-color:#9dc8db;
+    padding: 15px;  
+}
+ 
+#mail{
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+}
+#mail1{
+    padding: 35px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+
+  .btn{
+    margin-top: 5px;
+    height: 25px;
+    width: 50%;
+    background-color:black;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
+
+ 
+.mob{
+    margin-top: 30px;
+    display: flex;
+}
+
+#data{
+    padding-top:0;
+    margin-left: 10px;
+}
+
+#data{
+    padding-top:0;
+    margin-left: 10px;
+}
+ 
+#icon{
+    height: 45px;
+    width: 15px;
+}
+
+.mob{
+    margin-top: 30px;
+    display: flex;
+    height: 20px;
+}
+#data{
+    padding-top: 0;
+    margin-left: 10px;
+}
+ 
+.mob > i{
+    font-size: x-large;
+}
+ 
+.ph{
+    margin-top: 30px;
+    display: flex;
+    height: 20px;
+}
+ 
+.ph>i{
+    font-size: x-large;
+}
+ 
+.dat{
+margin-left: 10px;
+ 
+}
+ 
+.Ad{
+    margin-top: 30px;
+    display: flex;
+    height: 20px;
+}
+ 
+.Ad>i{
+    font-size: x-large;
+}
+ 

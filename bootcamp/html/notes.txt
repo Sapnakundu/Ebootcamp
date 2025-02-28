@@ -1,0 +1,11 @@
+list is collection of items.
+unordered
+ disc,square,circle
+ to add items<li>
+ unorfdered <ul>
+
+
+
+Task is to do the 
+left 20%
+right 80%

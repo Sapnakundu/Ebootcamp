@@ -1,0 +1,58 @@
+body{
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:o;
+    background: linear-gradient(to right,#1e1e1e,#3a3a3a);
+    color:white;
+}
+
+header{
+    
+    background: linear-gradient(to right,#4b6cb7,#182848);
+    text-align: center;
+    padding:20px;
+    font-size:24px;
+    
+}
+
+nav li{
+    position: relative;
+    cursor: pointer;
+    padding:10px;
+    transition:background-color 0.3s ease;
+
+
+}
+
+nav li:hover{
+    background-color:rgba(255,255,255,0.2)
+}
+
+.submenu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:5px;
+    padding: 10px;
+    margin-top:5px;
+    z-index:1;
+}
+
+nav li:hover .submenu{
+    display:inline;
+}
+
+.submenu li{
+    padding:5px 10px;
+}
+
+main{
+    text-align:center;
+    padding:20px;
+    position:relative;
+    bottom:0;
+    width:100%;
+}
+
