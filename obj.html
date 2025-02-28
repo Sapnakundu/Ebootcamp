@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   
+
+let obj={
+                 fname:"sumit",
+                 lname:"joshi",
+            fullName:function(){
+                return this.fname+" "+this.lname;
+            }
+            }
+            console.log(obj.fname);//sumit
+            console.log(obj.fullName());//undefined
+            obj.age=45;//add
+            console.log(obj)
+            delete obj.fullName;
+            console.log(obj)
+
+//padding
+const string = "Hello World!";
+let index1 = string.charAt(1);
+console.log("Character at index 1 is " + index1);
+let string1 = "CODE";
+let paddedString = string1.padStart(10, "*");
+
+
+console.log(paddedString);
+
+
+//array fill
+var fruits=['sds','sdbhsd','djshd','adjhd'];
+fruits.fill('dahdhd')
+console.log(fruits);
+
+//splice
+let prime_numbers=[1,2,3,4,45,56];
+let removedElement=prime_numbers.splice(4,1,13);
+console.log(removedElement);
+console.log(prime_numbers);
+
+
+    </script>
+    
+</body>
+</html>

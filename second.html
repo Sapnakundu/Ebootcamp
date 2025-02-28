@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> OOPS Features</h2>
+    <script>
+
+class Persone {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+    
+        greet() {
+            console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+        }
+    }
+    
+    const person1 = new Persone('Sapna', 23);
+    person1.greet(); 
+
+//encapsulation
+
+    class Flower {
+    constructor(varity) {
+        this._varity = varity; 
+    }
+
+    get varity() {
+        return this._varity;
+    }
+
+    set varity(newVarity) {
+        this._varity = newVarity;
+    }
+}
+
+const myFlower = new Flower('sunflower');
+console.log(myFlower.varity); 
+myFlower.varity = 'lili';
+console.log(myFlower.varity);
+
+//inheritance
+
+class Person{
+    constructor(fname,lname){
+        this.fname=fname;
+        this.lname=lname;
+    }
+    getFullName(){
+        return this.fname+" "+this.lname;
+    }
+}
+class Personal extends Person{
+    constructor(fname,lname,salary){
+        super(fname,lname);
+        this.salary=salary;
+
+    }
+    getDetails(){
+        return `${this.getFullName()} got ${this.salary} per month`;
+
+    }
+
+}
+const obj=new Personal("xyz","sinsah",70000);
+console.log(obj.getDetails());
+
+
+//bind
+let runner={
+    name:'runner',
+    run:function(speed){
+        console.log(this.name+ 'runs at'+spped+'mph');
+    
+    }
+
+
+};
+
+
+
+    </script>
+    
+</body>
+</html>
+

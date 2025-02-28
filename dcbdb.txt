@@ -1,0 +1,25 @@
+global execution context
+debugging in actions
+call stack in JS 
+hoisting
+arrow function
+scope
+let,var,const
+redeclaration
+var not in use
+Document object(DOM)
+inner html
+text content
+set data in para
+change style
+event listener
+
+calculator assignment
+
+setInterval(expression,interval):call repeatedly
+setTimeout(expression,)
+IIFE
+
+oops in JS
+map filter reduce
+
